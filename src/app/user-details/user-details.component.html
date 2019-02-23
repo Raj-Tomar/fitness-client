@@ -1,0 +1,19 @@
+<div *ngIf="user">
+  <div>
+    <label>First Name: </label> {{user.firstName}}
+  </div>
+  <div>
+    <label>Last Name: </label> {{user.lastName}}
+  </div>
+  <div>
+    <label>Location: </label> {{user.myLocation}}
+  </div>
+  <div>
+    <label>User Role: </label> {{user.userRole}}
+  </div>
+ 
+  <button class="button is-small btn-danger" (click)='deleteUser()'>Delete</button>
+ 
+  <hr/>
+ 
+</div>
